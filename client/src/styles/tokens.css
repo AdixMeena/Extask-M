@@ -1,0 +1,29 @@
+:root {
+  /* Colours from the ExTask pitch deck */
+  --cream: #f6f1e7;
+  --ink: #141b4d;
+  --orange: #ff6b35;
+  --teal: #00a896;
+  --muted: #6b6f8d;
+
+  /* Shades of the same colours */
+  --paper: #fffcf5;
+  --teal-deep: #00685d; /* teal dark enough to read as text */
+  --teal-wash: #dff2ec;
+  --orange-wash: #ffe6da;
+  --muted-text: #575b79; /* muted, darkened for contrast on cream */
+  --line: rgb(20 27 77 / 0.18);
+  --danger: #a32d10;
+
+  --font-head: 'Fraunces', Georgia, serif;
+  --font-body: 'Instrument Sans', system-ui, sans-serif;
+
+  /* Hard offset shadows, like paper lifted off a board */
+  --shadow-sm: 2px 2px 0 var(--ink);
+  --shadow: 4px 4px 0 var(--ink);
+  --shadow-lg: 7px 7px 0 var(--ink);
+
+  --radius: 4px;
+  --gap: 1rem;
+  --page: 1140px;
+}
